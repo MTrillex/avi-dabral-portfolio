@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 from_email: email,
                 subject: subject || 'Portfolio Contact Form',
                 message: message,
-                to_email: 'avidabral530@gmail.com'
+                to_email: 'davidtrillex@gmail.com'
             };
             
             emailjs.send('service_jwyb2cj', 'template_x9fdzqv', templateParams)
