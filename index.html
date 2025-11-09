@@ -18,11 +18,11 @@
             </div>
             <div class="nav-menu">
                 <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
                 <a href="#skills" class="nav-link">Skills</a>
                 <a href="#courses" class="nav-link">Courses</a>
-                <a href="#projects" class="nav-link">Projects</a>
-                <a href="#services" class="nav-link">Services</a>
+                <!-- <a href="#services" class="nav-link">Services</a> -->
+                <a href="#about" class="nav-link">About</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
             <div class="hamburger">
@@ -60,11 +60,11 @@
                     </p>
                     <div class="hero-stats">
                         <div class="stat-item">
-                            <span class="stat-number">18</span>
+                            <span class="stat-number">19</span>
                             <span class="stat-label">Years Old</span>
                         </div>
                         <div class="stat-item">
-                            <span class="stat-number">2+</span>
+                            <span class="stat-number">4+</span>
                             <span class="stat-label">Projects</span>
                         </div>
                         <div class="stat-item">
@@ -76,6 +76,10 @@
                         <a href="#projects" class="btn btn-primary">
                             <span>View My Projects</span>
                             <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#about" class="btn btn-secondary">
+                            <span>Get to Know Me</span>
+                            <i class="fas fa-person"></i>
                         </a>
                         <a href="#contact" class="btn btn-secondary">
                             <span>Let's Connect</span>
@@ -100,7 +104,7 @@
                 <div class="hero-image">
                     <div class="image-container">
                         <div class="image-background"></div>
-                        <img src="picture.jpg" alt="Avi Dabral" class="profile-img">
+                        <img src="picture.jpeg" alt="Avi Dabral" class="profile-img">
                         <div class="image-overlay">
                             <div class="tech-icons">
                                 <div class="tech-icon">
@@ -128,66 +132,170 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
+<!-- Projects Section -->
+    <section id="projects" class="projects">
         <div class="container">
             <div class="section-header">
                 <div class="section-badge">
-                    <span class="badge-icon">👨‍💻</span>
-                    <span class="badge-text">About Me</span>
+                    <span class="badge-text">My Work</span>
                 </div>
-                <h2 class="section-title">Get to Know Me Better</h2>
-                <p class="section-subtitle">Passionate about creating meaningful impact through technology</p>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Innovative solutions that showcase my technical skills and creativity</p>
             </div>
-            <div class="about-content">
-                <div class="about-grid">
-                    <div class="about-text">
-                        <div class="about-intro">
-                            <h3 class="about-name">Avi Dabral</h3>
-                            <div class="about-role">
-                                <span class="role-icon">🚀</span>
-                                <span>Software Developer & AI Enthusiast</span>
+            <div class="projects-grid">
+                <div class="project-card project-card-super">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://youtu.be/zzSSnucIXVc" target="_blank" class="project-link video-link" aria-label="Watch Demo Video">
+                                    <i class="fas fa-play"></i>
+                                </a>
                             </div>
                         </div>
-                        <p class="about-description">
-                            I am a Software Developer with keen interest in Artificial Intelligence (AI) to solve modern day business and social problems for sustainable development. My goal is to help create a world where digital solutions enable positive, real-world impact.
-                        </p>
-                        
-                        <div class="about-details">
-                            <div class="detail-card">
-                                <div class="detail-icon">
-                                    <i class="fas fa-graduation-cap"></i>
-                                </div>
-                                <div class="detail-content">
-                                    <h4>Education</h4>
-                                    <span>International Baccalaureate Diploma</span>
-                                </div>
-                            </div>
-                            
+                        <div class="project-bg">
+                            <img src="trillex-autorouting-chatbot-homepage.png" alt="Physics Education Website Homepage" class="project-bg-image">
                         </div>
                     </div>
-                    <div class="about-visual">
-                        <div class="about-card">
-                            <div class="card-header">
-                                <div class="card-dots">
-                                    <span class="dot dot-red"></span>
-                                    <span class="dot dot-yellow"></span>
-                                    <span class="dot dot-green"></span>
+                    <div class="project-content">
+                        <div class="project-main-content">
+                            <div class="project-header">
+                                <div class="project-category">
+                                    <i class="fas fa-robot"></i>
+                                    <span>AI Chatbot</span>
                                 </div>
-                                <span class="card-title">Mission Statement</span>
+                                <h3>Trillex AutoRouting Chatbot</h3>
                             </div>
-                            <div class="card-content">
-                                <div class="mission-icon">
-                                    <i class="fas fa-lightbulb"></i>
+                            <p>An innovative chatbot website that helps solve the modern issue of many LLMs being better for specific tasks. It makes use of a custom ML & LLM (fallback) classifier to help select the best LLM to use to answer user queries. It has also been implemented with various other features that improves user experience.</p>
+                        </div>
+                        <div class="project-side-content">
+                            <div class="project-features">
+                                <div class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>ML & LLM classifier</span>
                                 </div>
-                                <h4>Building Tomorrow</h4>
-                                <p>Leveraging AI and technology to create sustainable solutions that make a positive impact on society and the environment.</p>
-                                <div class="mission-tags">
-                                    <span class="mission-tag">Innovation</span>
-                                    <span class="mission-tag">Sustainability</span>
-                                    <span class="mission-tag">Impact</span>
+                                <div class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>OAuth 2.0 authentication</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>Web Search</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>Doc/Image Upload</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>Various LLMs</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>Context Awareness</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>Conversation History</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>UI Themes</span>
                                 </div>
                             </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">FastAPI</span>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">LLM APIs</span>
+                                <span class="tech-tag">RAG</span>
+                                <span class="tech-tag">PostgreSQL DB</span>
+                                <span class="tech-tag">Vector DB</span>
+                                <span class="tech-tag">Tavily Search API</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://youtu.be/bttyLRv_Xq4" target="_blank" class="project-link video-link" aria-label="Watch Demo Video">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-bg">
+                            <img src="physics-education-website-homepage.png" alt="Physics Education Website Homepage" class="project-bg-image">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <div class="project-category">Educational Platform</div>
+                            <h3>Physics Education Website</h3>
+                        </div>
+                        <p>A comprehensive resource platform for IGCSE students featuring interactive physics simulations. Built with Python-Flask backend and dynamic JavaScript frontend to make complex physics concepts accessible and engaging.</p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Interactive Simulations</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Educational Resources</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Responsive Design</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Flash Alerts</span>
+                            <span class="tech-tag">DB Integration</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://youtu.be/Y4Sn-uNccZ0" target="_blank" class="project-link video-link" aria-label="Watch Demo Video">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-bg">
+                            <img src="ims-chatbot-website-homepage.png" alt="IMS Chatbot Website Homepage" class="project-bg-image">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <div class="project-category">AI-Powered System</div>
+                            <h3>Inventory Management + AI Chatbot</h3>
+                        </div>
+                        <p>A sophisticated full-stack inventory management system built with Java Springboot and React. Enhanced with an intelligent Python chatbot that leverages OpenAI and Pinecone for smart user assistance and document processing.</p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>AI-Powered Chatbot</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Full-Stack Solution</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Real-time Updates</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">OpenAI</span>
+                            <span class="tech-tag">Pinecone</span>
                         </div>
                     </div>
                 </div>
@@ -200,7 +308,6 @@
         <div class="container">
             <div class="section-header">
                 <div class="section-badge">
-                    <span class="badge-icon">⚡</span>
                     <span class="badge-text">My Skills</span>
                 </div>
                 <h2 class="section-title">Technical Expertise</h2>
@@ -219,7 +326,7 @@
                             <div class="skill-icon-small">
                                 <i class="fab fa-python"></i>
                             </div>
-                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-name">Python</span>
                         </div>
                         <div class="skill-item">
                             <div class="skill-icon-small">
@@ -231,7 +338,7 @@
                             <div class="skill-icon-small">
                                 <i class="fab fa-js-square"></i>
                             </div>
-                            <span class="skill-name">Python</span>
+                            <span class="skill-name">JavaScript</span>
                         </div>
                     </div>
                 </div>
@@ -245,6 +352,12 @@
                     <div class="skill-items">
                         <div class="skill-item">
                             <div class="skill-icon-small">
+                                <i class="fas fa-flask"></i>
+                            </div>
+                            <span class="skill-name">Flask and FastAPI</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-small">
                                 <i class="fab fa-react"></i>
                             </div>
                             <span class="skill-name">React.js</span>
@@ -255,12 +368,7 @@
                             </div>
                             <span class="skill-name">Springboot</span>
                         </div>
-                        <div class="skill-item">
-                            <div class="skill-icon-small">
-                                <i class="fas fa-flask"></i>
-                            </div>
-                            <span class="skill-name">Flask</span>
-                        </div>
+                        
                     </div>
                 </div>
                 <div class="skill-category">
@@ -300,7 +408,6 @@
         <div class="container">
             <div class="section-header">
                 <div class="section-badge">
-                    <span class="badge-icon">📚</span>
                     <span class="badge-text">Education</span>
                 </div>
                 <h2 class="section-title">Courses & Certifications</h2>
@@ -329,16 +436,23 @@
                             </div>
                             <div class="course-subjects">
                                 <div class="subject-item">
-                                    <span class="subject-name">Computer Science</span>
+                                    <span class="subject-name">Computer Science (7)</span>
                                     <span class="subject-level">Higher Level</span>
                                 </div>
                                 <div class="subject-item">
-                                    <span class="subject-name">Mathematics: Analysis & Approaches</span>
+                                    <span class="subject-name">Mathematics AA (7)</span>
                                     <span class="subject-level">Higher Level</span>
                                 </div>
                                 <div class="subject-item">
-                                    <span class="subject-name">Physics</span>
+                                    <span class="subject-name">Physics (7)</span>
                                     <span class="subject-level">Higher Level</span>
+                                </div>
+                                <div class="subject-item">
+                                    <span class="subject-name">Business Management (7)</span>
+                                    <span class="subject-level">Standard Level</span>
+                                </div>
+                                <div class="subject-item">
+                                    <span class="subject-name">Scored 42/45 in Finals</span>
                                 </div>
                             </div>
                         </div>
@@ -355,10 +469,7 @@
                             </div>
                             <div class="course-subjects">
                                 <div class="subject-item">
-                                    <span class="subject-name">10 A*</span>
-                                </div>
-                                <div class="subject-item">
-                                    <span class="subject-name">1 A</span>
+                                    <span class="subject-name">10 A* and 1 A</span>
                                 </div>
                             </div>
                         </div>
@@ -371,7 +482,7 @@
                             <i class="fas fa-certificate"></i>
                         </div>
                         <h3>Computer Science Courses</h3>
-                        <p>Specialized training in Computer Science</p>
+                        <p>Specialized training in Computer Science and Artificial Intelligence</p>
                     </div>
                     <div class="course-items">
                         <div class="course-card">
@@ -476,117 +587,13 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-badge">
-                    <span class="badge-icon">🚀</span>
-                    <span class="badge-text">My Work</span>
-                </div>
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">Innovative solutions that showcase my technical skills and creativity</p>
-            </div>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://www.youtube.com/watch?v=1CrZ6EpLZ6s" target="_blank" class="project-link video-link" aria-label="Watch Demo Video">
-                                    <i class="fas fa-play"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="project-bg">
-                            <img src="physics-education-website-homepage.png" alt="Physics Education Website Homepage" class="project-bg-image">
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-header">
-                            <div class="project-category">Educational Platform</div>
-                            <h3>Physics Education Website</h3>
-                        </div>
-                        <p>A comprehensive resource platform for IGCSE students featuring interactive physics simulations. Built with Python-Flask backend and dynamic JavaScript frontend to make complex physics concepts accessible and engaging.</p>
-                        <div class="project-features">
-                            <div class="feature-item">
-                                <i class="fas fa-check"></i>
-                                <span>Interactive Simulations</span>
-                            </div>
-                            <div class="feature-item">
-                                <i class="fas fa-check"></i>
-                                <span>Educational Resources</span>
-                            </div>
-                            <div class="feature-item">
-                                <i class="fas fa-check"></i>
-                                <span>Responsive Design</span>
-                            </div>
-                        </div>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Flask</span>
-                            <span class="tech-tag">JavaScript</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-video-container">
-                            <div class="video-thumbnail" style="background-image: url('ims-chatbot-website-homepage.png'); background-size: cover; background-position: center; height: 200px; position: relative;">
-                                <a href="https://www.youtube.com/watch?v=Zt5pFx2uQM8" target="_blank" class="video-play-button" aria-label="Watch Demo Video">
-                                    <i class="fas fa-play"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://www.youtube.com/watch?v=Zt5pFx2uQM8" target="_blank" class="project-link video-link" aria-label="Watch Demo Video">
-                                    <i class="fas fa-play"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="project-bg">
-                            <img src="ims-chatbot-website-homepage.png" alt="IMS Chatbot Website Homepage" class="project-bg-image">
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-header">
-                            <div class="project-category">AI-Powered System</div>
-                            <h3>Inventory Management + AI Chatbot</h3>
-                        </div>
-                        <p>A sophisticated full-stack inventory management system built with Java Springboot and React. Enhanced with an intelligent Python chatbot that leverages OpenAI and Pinecone for smart user assistance and document processing.</p>
-                        <div class="project-features">
-                            <div class="feature-item">
-                                <i class="fas fa-check"></i>
-                                <span>AI-Powered Chatbot</span>
-                            </div>
-                            <div class="feature-item">
-                                <i class="fas fa-check"></i>
-                                <span>Full-Stack Solution</span>
-                            </div>
-                            <div class="feature-item">
-                                <i class="fas fa-check"></i>
-                                <span>Real-time Updates</span>
-                            </div>
-                        </div>
-                        <div class="project-tech">
-                            <span class="tech-tag">Java</span>
-                            <span class="tech-tag">Spring Boot</span>
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">OpenAI</span>
-                            <span class="tech-tag">Pinecone</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
+    
+<!--
+     Services Section 
     <section id="services" class="services">
         <div class="container">
             <div class="section-header">
                 <div class="section-badge">
-                    <span class="badge-icon">💼</span>
                     <span class="badge-text">Services</span>
                 </div>
                 <h2 class="section-title">What I Offer</h2>
@@ -654,13 +661,79 @@
             </div>
         </div>
     </section>
+-->
+
+<!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <span class="badge-text">About Me</span>
+                </div>
+                <h2 class="section-title">Get to Know Me Better</h2>
+                <p class="section-subtitle">Passionate about creating meaningful impact through technology</p>
+            </div>
+            <div class="about-content">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <div class="about-intro">
+                            <h3 class="about-name">Avi Dabral</h3>
+                            <div class="about-role">
+                                <span class="role-icon">🚀</span>
+                                <span>Software Developer & AI Enthusiast</span>
+                            </div>
+                        </div>
+                        <p class="about-description">
+                            I am a Software Developer with keen interest in Artificial Intelligence (AI) to solve modern day business and social problems for sustainable development. My goal is to help create a world where digital solutions enable positive, real-world impact.
+                        </p>
+                        
+                        <div class="about-details">
+                            <div class="detail-card">
+                                <div class="detail-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <h4>Education</h4>
+                                    <span>International Baccalaureate Diploma (42/45 in finals)</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="about-visual">
+                        <div class="about-card">
+                            <div class="card-header">
+                                <div class="card-dots">
+                                    <span class="dot dot-red"></span>
+                                    <span class="dot dot-yellow"></span>
+                                    <span class="dot dot-green"></span>
+                                </div>
+                                <span class="card-title">Mission Statement</span>
+                            </div>
+                            <div class="card-content">
+                                <div class="mission-icon">
+                                    <i class="fas fa-lightbulb"></i>
+                                </div>
+                                <h4>Building Tomorrow</h4>
+                                <p>Leveraging AI and technology to create sustainable solutions that make a positive impact on society and the environment.</p>
+                                <div class="mission-tags">
+                                    <span class="mission-tag">Innovation</span>
+                                    <span class="mission-tag">Sustainability</span>
+                                    <span class="mission-tag">Impact</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-header">
                 <div class="section-badge">
-                    <span class="badge-icon">📧</span>
                     <span class="badge-text">Get In Touch</span>
                 </div>
                 <h2 class="section-title">Let's Work Together</h2>
