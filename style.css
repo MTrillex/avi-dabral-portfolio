@@ -1684,7 +1684,7 @@ section {
 .form-group input,
 .form-group textarea {
     width: 100%;
-    padding: 12px 14px;
+    padding: 14px 166px;
     border: 2px solid #e5e7eb;
     border-radius: 12px;
     font-size: 1rem;
@@ -2428,6 +2428,7 @@ section {
         max-height: calc(80vh - 100px);
     }
 }
+
 
 
 
