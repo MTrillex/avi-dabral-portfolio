@@ -1676,7 +1676,7 @@ section {
 
 .form-group label {
     display: block;
-    margin-bottom: 0.1rem;
+    margin-bottom: 0.7rem;
     color: var(--text-dark);
     font-weight: 500;
 }
